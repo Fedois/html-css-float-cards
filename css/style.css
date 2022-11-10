@@ -19,6 +19,7 @@ h1, h3{
 header{
     margin-top: 30px;
     color: #e53170;
+    margin-bottom: 50px;
 }
 
 /* parte principale */
@@ -31,9 +32,6 @@ section::after{
     content: '';
     display: table;
     clear: both;
-}
-.paragraph{
-    margin-top: 50px;
 }
 .team{
     margin-top: 30px;
@@ -51,11 +49,9 @@ img{
     float: left;
     height: 90px;
     margin-right: 15px;
-    vertical-align: middle;
 }
-.info, .info > p{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.info > p, h3{
+    margin: 5px 0 5px 0;
 }
 a{
     text-decoration: none;

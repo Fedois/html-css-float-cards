@@ -1,8 +1,11 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* body e titoli */
 body{
     max-width: 70%;
     margin: auto;
@@ -10,22 +13,30 @@ body{
 h1, .paragraph{
     text-align: center;
 }
+h1, h3{
+    font-family: 'Fredoka One', cursive;
+}
 header{
     margin-top: 30px;
+    color: #e53170;
 }
+
+/* parte principale */
 main::after{
     content: '';
     display: table;
     clear: both;
 }
 .paragraph{
-    margin: 50px 0 20px 0;
+    margin: 50px 0 40px 0;
 }
-section > div{
+.card{
     float: left;
     width: calc(100% / 3);
     border: 1px solid black;
     margin-bottom: 40px;
+    background-color: #0f0e17;
+    color: white;
 }
 img{
     float: left;
@@ -35,7 +46,13 @@ img{
 }
 .info, .info > p{
     margin-top: 5px;
+    margin-bottom: 5px;
 }
-.info p:nth-child(3){
-    
+a{
+    text-decoration: none;
+    color: #42cbef;
+}
+p, a{
+    font-family: 'Fredoka', sans-serif;
+
 }

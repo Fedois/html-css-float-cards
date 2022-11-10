@@ -39,7 +39,6 @@ section::after{
 .card{
     float: left;
     width: calc(100% / 3 - 20px);
-    border: 1px solid black;
     background-color: #0f0e17;
     color: white;
     margin: 10px;
@@ -53,7 +52,7 @@ img{
     margin-right: 15px;
 }
 .info > p, h3{
-    margin: 5px 0 5px 0;
+    margin: 5px 0;
 }
 a{
     text-decoration: none;
